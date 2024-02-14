@@ -1,0 +1,117 @@
+*{
+    font-family: 'Protest Guerrilla', sans-serif;
+    padding: 0; margin: 0;
+    text-align: center;
+}
+
+body, button{
+    background: linear-gradient(to right, #ec2be0, #28eed0);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    padding: 3%;
+    font-size: 300%;
+}
+
+button, .addTask, .tasks{
+    display: block;
+    padding: 3%;
+    margin: 3% auto;
+    min-width: 60%;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.tasks, .openBtn, .addTask{
+    border: 2px solid black;
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.addTask button{
+    padding: 0;
+    margin: 0;
+    min-width: 15%;
+    text-align: center;
+}
+
+.fa-trash{
+    color: red;
+}
+    /* MY DAY */
+
+.back{
+    display: flex;
+    padding: 10px 0 0 10px;
+    color: black;
+}
+    
+.fa-circle-chevron-left{
+    font-size: 150%;
+}
+
+.fa-circle-plus{
+    color: blue;
+}
+
+.fa-circle-check{
+    color: green;
+}
+
+.fa-circle-minus{
+    color: red;
+}
+
+.fa-circle-xmark{
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.input{
+    max-width: 70%;
+    background: #a8fff2;
+    padding: 7px;
+    font-size: 70%;
+}
+
+.addTask button{
+    font-size: 100%;
+    margin: 10px auto;
+}
+
+.addTask{
+    display: none;
+    position: relative;
+}
+
+.addTask.open{
+    display: block;
+}
+
+.tasks{
+    margin-top: 0;
+}
+
+.complated{
+    background: rgb(123, 255, 0);
+}
+
+.remove{
+    display: none;
+}
+
+
