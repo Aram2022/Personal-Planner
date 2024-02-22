@@ -1,0 +1,88 @@
+* {
+  font-family: 'Protest Guerrilla', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+button, .addTask {
+  display: block;
+  padding: 3%;
+  margin: 3% auto;
+  min-width: 60%;
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.openBtn, .addTask {
+  border: 2px solid black;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.addTask button {
+  padding: 0;
+  margin: 0;
+  min-width: 15%;
+  text-align: center;
+}
+
+.fa-circle-plus {
+  color: blue;
+}
+
+.fa-circle-check {
+  color: green;
+}
+
+.fa-circle-minus {
+  color: red;
+}
+
+.fa-circle-xmark {
+  color: red;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.input {
+  max-width: 70%;
+  background: #a8fff2;
+  padding: 7px;
+  font-size: 70%;
+}
+
+.addTask button {
+  font-size: 100%;
+  margin: 10px auto;
+}
+
+.addTask {
+  display: none;
+  position: relative;
+}
+
+.open {
+  display: block;
+}
+
+.tasks {
+  margin-top: 0;
+}
+
+.complated {
+  background: rgba(200, 255, 0, 0.5);
+}
+
+.remove {
+  display: none;
+}
