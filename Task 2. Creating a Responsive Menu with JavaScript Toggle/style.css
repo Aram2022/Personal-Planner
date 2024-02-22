@@ -1,0 +1,99 @@
+* {
+  font-family: 'Protest Guerrilla', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body,
+button {
+  background: linear-gradient(to right, #b31fa9, #2c9183);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fa-calendar-check {
+  padding-right: 5px;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+.navbar-button {
+  padding: 5px;
+  margin: 0;
+  min-width: 0;
+}
+
+.fa-chart-bar {
+  cursor: pointer;
+}
+
+.navbar-item {
+  font-size: 120%;
+  padding-bottom: 10px;
+}
+
+.navbar-link {
+  color: black;
+}
+
+.navbar-menu {
+  position: absolute;
+  display: none;
+  top: 10%;
+  width: 70%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.navbar-links {
+  background: linear-gradient(to right, #b31fa9, #2c9183);
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@media(min-width: 600px) {
+  .navbar-button {
+    display: none;
+  }
+
+  .navbar-menu {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-links {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    position: static;
+    width: 100%;
+    display: flex;
+    background: none;
+  }
+
+  .navbar-link {
+    padding: 20px;
+  }
+}
