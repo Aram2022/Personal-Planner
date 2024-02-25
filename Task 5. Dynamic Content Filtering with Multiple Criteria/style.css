@@ -1,0 +1,13 @@
+label{
+    margin: 5px;
+}
+
+form{
+    margin-bottom: 10px;
+}
+
+div{
+    padding: 5px;
+    border: 1px solid black;
+    width: 300px;
+}
